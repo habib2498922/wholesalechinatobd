@@ -21,7 +21,7 @@ $('.category-slider').slick({
         {
             breakpoint: 1124,
             settings: {
-                slidesToShow: 5,
+                slidesToShow: 4,
             }
         },
         {
@@ -1223,13 +1223,13 @@ $('.slider-7_1').slick({
     responsive: [{
             breakpoint: 1660,
             settings: {
-                slidesToShow: 6,
+                slidesToShow: 5,
             }
         },
         {
             breakpoint: 1501,
             settings: {
-                slidesToShow: 5,
+                slidesToShow: 4,
             }
         },
         {

@@ -3,6 +3,11 @@
     background-color: #417394;
 }
 
+.section-bg
+{
+    background-color: #e2e8ff;
+}
+
 @media  screen and (max-width: 600px)
 {
     .m-display-none
