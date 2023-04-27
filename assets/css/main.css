@@ -1,0 +1,12 @@
+.bg-theme
+{
+    background-color: #417394;
+}
+
+@media  screen and (max-width: 600px)
+{
+    .m-display-none
+    {
+        display: none!important;
+    }
+}
