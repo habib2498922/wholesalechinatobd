@@ -1,27 +1,27 @@
 .theme-color-1{
-    --theme-color: #417394;
+    --theme-color: #BE73FB;
     --theme-color-rgb: 217, 159, 70
 }
 .theme-color-2{
-    --theme-color: #417394;
+    --theme-color: #BE73FB;
     --theme-color-rgb: 11, 175, 154
 }
 .theme-color-3{
-    --theme-color: #417394;
+    --theme-color: #BE73FB;
     --theme-color-rgb: 35, 150, 152
 }
 .theme-color-4{
-    --theme-color: #417394;
+    --theme-color: #BE73FB;
     --theme-color-rgb: 35, 150, 152
 }
 .theme-color-5{
-    --theme-color: #417394;
+    --theme-color: #BE73FB;
     --theme-color-rgb: 65, 115, 148
 }
 :root{
-    --theme-color: #417394;
+    --theme-color: #BE73FB;
     --theme-color-rgb: 13, 164, 135;
-    --theme-color1: #417394;
+    --theme-color1: #BE73FB;
     --theme-color1-rgb: 14, 148, 122;
     --theme-color2: linear-gradient(90.56deg, var(--theme-color1) 8.46%, var(--theme-color) 62.97%)
 }
@@ -7211,11 +7211,11 @@ header .top-nav .navbar-top .middle-box .search-box .input-group .form-control:f
     background-color:#fff
 }
 header .top-nav .navbar-top .middle-box .search-box .input-group button{
-    background-color: #417394;
+    background-color: #BE73FB;
     color:#fff;
     padding:14px 20px;
     border-radius:5px;
-    border:1px solid #417394;
+    border:1px solid #BE73FB;
 }
 header .top-nav .navbar-top .middle-box .search-box .input-group button.bg-theme{
     background-color:var(--theme-color);
@@ -12514,7 +12514,6 @@ header .navbar.navbar-expand-xl .navbar-nav .nav-link .label-menu::before{
     right:10px
 }
 header .navbar.navbar-expand-xl .navbar-nav .nav-link::before{
-    content:"";
     position:absolute;
     font-family:"Font Awesome 6 Free";
     font-weight:900;
@@ -13720,7 +13719,7 @@ header .offcanvas-backdrop{
     font-size:calc(18px + (26 - 18) * ((100vw - 320px) / (1920 - 320)))
 }
 .add-to-cart-box{
-    background-color:#f8f8f8;
+    background-color:var(--theme-color);
     border-radius:50px;
     position:relative;
     max-width:250px
@@ -25528,3 +25527,8 @@ header .offcanvas-backdrop{
     bottom: 20px
 }
 
+/*show on scroll*/
+
+#showOnScroll {
+    display: none;
+}

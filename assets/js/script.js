@@ -448,3 +448,27 @@ $(".navbar-toggler-icon-2").click(function () {
 $(".bg-overlay").click(function () {
     $(".bg-overlay, .sidebar-col").removeClass("show");
 });
+
+
+/*=====================
+   26. show on scroll
+   ==========================*/
+var getHeader = document.getElementById('getHeader');
+var showOnScroll = document.getElementById('showOnScroll');
+var ObserverConfig = { attributes: true };
+if (getHeader.classList.contains('active')) {
+    showOnScroll.style.display = "block";
+}
+var callback = function (attributes) {
+    for (var attribute of attributes) {
+        if (attribute.attributeName === 'class') {
+            if (attribute.target.classList.contains('active')) {
+                showOnScroll.style.display = "block";
+            } else {
+                showOnScroll.style.display = "none";
+            }
+        }
+    }
+};
+var observer = new MutationObserver (callback);
+observer.observe (getHeader, ObserverConfig);
