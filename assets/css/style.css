@@ -12513,12 +12513,22 @@ header .navbar.navbar-expand-xl .navbar-nav .nav-link .label-menu::before{
     left:unset;
     right:10px
 }
-header .navbar.navbar-expand-xl .navbar-nav .nav-link::before{
+/*header .navbar.navbar-expand-xl .navbar-nav .nav-link::before{*/
+/*    content:"";*/
+/*    position:absolute;*/
+/*    font-family:"Font Awesome 6 Free";*/
+/*    font-weight:900;*/
+/*    right:-12px*/
+/*}*/
+
+header .navbar.navbar-expand-xl .navbar-nav .nav-link-arrow::before{
+    content:"";
     position:absolute;
     font-family:"Font Awesome 6 Free";
     font-weight:900;
     right:-12px
 }
+
 [dir="rtl"] header .navbar.navbar-expand-xl .navbar-nav .nav-link::before{
     right:unset;
     left:-12px
