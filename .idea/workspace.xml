@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f4bc3873-93fa-4fb6-9097-29503947f880" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +52,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -64,7 +66,8 @@
       <updated>1683232017541</updated>
       <workItem from="1683232018933" duration="4296000" />
       <workItem from="1683267291438" duration="3342000" />
-      <workItem from="1683394233122" duration="1408000" />
+      <workItem from="1683394233122" duration="2313000" />
+      <workItem from="1683475669703" duration="5764000" />
     </task>
     <servers />
   </component>
@@ -84,6 +87,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1683396136772">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1683396136772" />
     <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1683270436962">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
